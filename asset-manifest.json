@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/axit-landing-page/static/css/main.de1cad43.css",
-    "main.js": "/axit-landing-page/static/js/main.2c08e2dd.js",
+    "main.css": "/axit-landing-page/static/css/main.4d6b6fdc.css",
+    "main.js": "/axit-landing-page/static/js/main.67cb13e9.js",
     "static/media/bg.png": "/axit-landing-page/static/media/bg.a995a07589d4d647426b.png",
     "static/media/bg2.png": "/axit-landing-page/static/media/bg2.eeca607da5b5bf01000f.png",
     "static/media/image2.png": "/axit-landing-page/static/media/image2.eeed342db551024666f4.png",
@@ -9,11 +9,11 @@
     "static/media/imag1.png": "/axit-landing-page/static/media/imag1.0ead47b2f08119c3cb16.png",
     "static/media/testimonials.png": "/axit-landing-page/static/media/testimonials.002634027f733aa5962f.png",
     "index.html": "/axit-landing-page/index.html",
-    "main.de1cad43.css.map": "/axit-landing-page/static/css/main.de1cad43.css.map",
-    "main.2c08e2dd.js.map": "/axit-landing-page/static/js/main.2c08e2dd.js.map"
+    "main.4d6b6fdc.css.map": "/axit-landing-page/static/css/main.4d6b6fdc.css.map",
+    "main.67cb13e9.js.map": "/axit-landing-page/static/js/main.67cb13e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.de1cad43.css",
-    "static/js/main.2c08e2dd.js"
+    "static/css/main.4d6b6fdc.css",
+    "static/js/main.67cb13e9.js"
   ]
 }
