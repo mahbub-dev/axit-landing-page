@@ -1,0 +1,58 @@
+﻿@import "../responsive-breakpoint.scss";
+@import "../mixin.scss";
+.contact {
+	margin-bottom: 3rem;
+	.contact-detail {
+		margin: 3rem 0;
+		h1 {
+			@include dashses;
+            @include small-down{
+                font-weight: 500;
+                font-size: 20px;
+            }
+		}
+		p {
+			color: var(--desc-color);
+		}
+	}
+	.contact-form {
+        @include small-down{
+            flex-direction: column;
+        }
+		margin-bottom: 2rem;
+		display: flex;
+		justify-content: center;
+		.contact-input {
+            @include small-down{
+                width: unset;
+                margin-bottom: 2rem;
+            }
+			margin-right: 0.5rem;
+			width: 50%;
+			input {
+				@include form;
+			}
+		}
+		.msg-input {
+            @include small-down{
+                width: unset;
+            }
+			margin-left: 0.5rem;
+			width: 50%;
+			textarea {
+				@include form;
+                height: 9.3rem;
+			}
+		}
+	}
+	.btn {
+		button {
+			color: white;
+			border: none;
+			padding: 0.5rem 1.5rem;
+			background-color: #ff8f47;
+			cursor: pointer;
+			border-radius: 2px;
+		}
+	}
+}

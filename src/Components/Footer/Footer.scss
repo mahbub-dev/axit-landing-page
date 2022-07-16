@@ -1,0 +1,24 @@
+﻿@import "../mixin.scss";
+@import "../responsive-breakpoint.scss";
+.footer {
+	display: flex;
+    padding: 1rem;
+	background-color: black;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	color: var(--desc-color);
+	.footer-links {
+        margin-bottom: .5rem;
+		font-size: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #f5f5f5;
+		.icon {
+			margin: 0 1rem;
+		}
+	}
+	p {
+	}
+}

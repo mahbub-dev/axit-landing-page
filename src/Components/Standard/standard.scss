@@ -1,0 +1,12 @@
+﻿@import '../responsive-breakpoint.scss';
+.standard{
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #F5F5F5;
+    .standard-details{
+        @include medium-down{
+            margin-bottom: 2rem;
+        }
+    }
+}

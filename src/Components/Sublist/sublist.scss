@@ -1,0 +1,66 @@
+﻿@import '../responsive-breakpoint.scss';
+.sublist{
+    @include large-down{
+        flex-direction: column;
+    }
+    @include medium-down{
+
+    }
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .sublist-img{
+        @include medium-down{
+        width: unset;
+        
+        }
+        @include large-down{
+            margin-bottom: 2rem;
+        }
+        width: 50%;
+        img{
+            box-shadow: 0px 6px 20px 0px gray;
+
+        }
+    }
+    .sublist-details{
+        @include medium-down{
+        width: unset;
+        }
+        text-align: left;
+        width: 50%;
+        h3{
+            &::after{
+                content: '';
+                display: block;
+                margin: 1rem 0;
+                width: 50px;
+                border: 1px solid #FF8F47;
+            }
+        }
+        p{
+            color: var(--desc-color);
+            margin-bottom: 1rem;
+        }
+        .description{
+            display: flex;
+            align-items: center;
+            .icon{
+               margin-right: 1.5rem;
+               border-radius: 50%;
+               color: #FF8F47;
+               border: 2px solid;
+               .icon-font{
+                font-size: 30px;
+                padding: 5px;
+               }
+            }
+            .title{
+                h5{
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+    }
+}

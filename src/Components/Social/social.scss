@@ -1,0 +1,39 @@
+﻿@import '../responsive-breakpoint.scss';
+
+.social{
+    .social-links{
+        @include large-down{
+            flex-direction: column;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .details{
+            @include large-down{
+                text-align: center;
+                margin-bottom: .5rem;
+            }
+            text-align: left;
+                p{
+                    color: var(--desc-color);
+                }
+        }
+    }
+    .links{
+        justify-content: space-between;
+        display: flex;
+        .link{
+            @include small-down{
+                margin-left: .3rem;
+            }
+            color: #CCCCCC;
+            margin-left:2rem;
+            padding: .5rem;
+            cursor: pointer;
+            font-size: 30px;
+            &:hover{
+                color: gray;
+            }
+        }
+    }
+}

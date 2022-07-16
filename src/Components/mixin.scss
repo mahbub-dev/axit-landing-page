@@ -1,0 +1,29 @@
+﻿@mixin dashses {
+	&::after {
+		content: "";
+		width: 50px;
+		display: block;
+		border: 1px solid #ffaa6f;
+		margin: 1rem auto;
+		text-align: center;
+	}
+}
+@mixin btn {
+	border: 1px solid white;
+	padding: 0.5rem 1rem;
+	color: white;
+	background-color: unset;
+}
+@mixin form {
+	&:focus {
+		border-bottom: 1px solid var(--desc-color);
+	}
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #f5f5f5;
+	width: 100%;
+	display: block;
+	height: 3.1rem;
+	outline: none;
+}

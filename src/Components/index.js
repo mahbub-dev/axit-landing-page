@@ -1,0 +1,11 @@
+﻿export { default as Header } from "./Header/Header";
+export { default as Social } from "./Social/Social";
+export { default as Transition } from "./Transition/Transition";
+export { default as Sublist } from "./Sublist/Sublist";
+export { default as Standard } from "./Standard/Standard";
+export { default as Specification } from "./Specification/Specification";
+export { default as Pricing } from "./Pricing/Pricing";
+export { default as Testimonials } from "./Testimonials/Testimonials";
+export { default as Stylish } from "./Stylish/Stylish";
+export { default as Contact } from "./Contact/Contact";
+export { default as Footer } from "./Footer/Footer";
