@@ -18,7 +18,7 @@ const Item = ({ icon, title, desc, initial }) => {
 
 function Specification() {
 	return (
-		<div className="specification">
+		<div className="specification" id="feature">
 			<div className="title">
 				<h1>WHY THIS IS AWESOME</h1>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>

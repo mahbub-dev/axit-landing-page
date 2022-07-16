@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Contact() {
 	return (
-		<div className="contact global-padding">
+		<div className="contact global-padding" id="contact">
 			<div className="contact-detail">
 				<h1>CONTACT US</h1>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

@@ -8,6 +8,11 @@
 h1 {
 	font-family: var(--logo-font);
 }
+a{
+	color: var(--desc-color);
+	text-decoration: none;
+
+}
 .global-padding {
 	@include medium-down {
 		padding: 0.5rem 2rem;

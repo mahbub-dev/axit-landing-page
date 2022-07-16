@@ -31,7 +31,7 @@ const Item = ({ img, name, profession, initial }) => {
 
 function Testimonials() {
 	return (
-		<div className="testimonials global-padding">
+		<div className="testimonials global-padding" id="reviews">
 			<div className="testimonials-details">
 				<h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

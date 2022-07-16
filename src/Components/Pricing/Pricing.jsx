@@ -25,7 +25,7 @@ const FeatureItem = ({ feature }) => {
 };
 function Pricing() {
 	return (
-		<div className="pricing global-padding">
+		<div className="pricing global-padding" id="pricing">
 			<div className="pricing-details">
 				<h1>PRICING OPTION</h1>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>

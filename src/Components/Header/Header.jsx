@@ -7,11 +7,21 @@ import { motion } from "framer-motion";
 const Links = ({ styles }) => {
 	return (
 		<>
-			<p className={styles}>Features</p>
-			<p className={styles}>About</p>
-			<p className={styles}>Pricing</p>
-			<p className={styles}>Reviews</p>
-			<p className={styles}>Contact</p>
+			<p className={styles}>
+				<a href="#feature">Features</a>{" "}
+			</p>
+			<p className={styles}>
+				<a href="#">About</a>
+			</p>
+			<p className={styles}>
+				<a href="#pricing">Pricing</a>
+			</p>
+			<p className={styles}>
+				<a href="#reviews">Reviews</a>
+			</p>
+			<p className={styles}>
+				<a href="#contact">Contact</a>
+			</p>
 		</>
 	);
 };
